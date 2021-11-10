@@ -3,10 +3,12 @@ body {
     font-family:arial;
     color:white;
 }
-h1{
+
+h1 {
     color:grey;
     font-family:verdana
 }
+
 .maindiv {
     background-color:white;
     color:black;
@@ -16,4 +18,21 @@ h1{
     align: center;
 }
 
+form {
+    display: table
+}
+
+p {
+    display: table-row
+}
+
+label, input, select{
+    display: table-cell;
+}
+
+.compute-btn-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
